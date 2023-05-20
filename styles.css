@@ -1,21 +1,21 @@
 /* styles.css */
-body {
+body {    /*element has no margin or padding, uses the Arial font , and has a light gray background color. */
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;
-	background-color: #e6e6e6;
+	background-color: #e6e6e6;    
   }
   
   /* Header styles */
-  header {
+  header {                      /*give the header a dark gray background, white text, left-aligned text, and a 20-pixel padding around the content. */
 	background-color: #333333;
 	padding: 20px;
 	text-align: left;
 	color: #fff; 
   }
   
-  /* Additional header class */
-  .header {
+  /* Additional header class */ 
+  .header {                      /*give the header a dark gray background, white text, left-aligned text, and a 20-pixel padding around the content. */
 	background-color: #333333;
 	padding: 10px;
 	text-align: left;
@@ -25,7 +25,7 @@ body {
   
   /* Top navigation styles */
   .topnav a {
-	float: left;
+	float: left;  /*property is used to align the <a> tags horizontally to the left side of their container, in this case, the navigation bar. This means that the links will be positioned next to each other from left to right.*/
 	display: block;
 	color: #f2f2f2;
 	text-align: left;
@@ -38,7 +38,7 @@ body {
   }
   
   /* Navbar styles */
-  .navbar {
+  .navbar {   /* the CSS code provided sets up a navigation bar by removing default list styling, removing margins and paddings, hiding any overflow, center-aligning the contents, and adjusting the top position by a negative margin.*/
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -58,7 +58,7 @@ body {
 	font-size: 30px;
   }
   
-  /* Centered text class */
+  /* Centered text class */ /*make texe center*/
   .centered-text {
 	text-align: center;
   }
@@ -70,7 +70,7 @@ body {
   }
   
   /* Image gallery styles */
-  .image-gallery {
+  .image-gallery {/*Decide on a picture style*/
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -93,7 +93,7 @@ body {
   }
   
   /* Footer styles */
-  footer {
+  footer { /*Decide on the footer style*/
 	position: fixed;
 	left: 0;
 	bottom: 0;
@@ -104,5 +104,4 @@ body {
 	text-align: center;
 	font-size: 20px;
   }
-  
   
