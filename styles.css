@@ -1,44 +1,45 @@
-/* styles.css */
-body {    /*element has no margin or padding, uses the Arial font , and has a light gray background color. */
+/* General styles */
+body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;
-	background-color: #e6e6e6;    
+	background-color: #e6e6e6;
   }
   
   /* Header styles */
-  header {                      /*give the header a dark gray background, white text, left-aligned text, and a 20-pixel padding around the content. */
+  header {
 	background-color: #333333;
 	padding: 20px;
 	text-align: left;
-	color: #fff; 
+	color: #fff;
   }
   
-  /* Additional header class */ 
-  .header {                      /*give the header a dark gray background, white text, left-aligned text, and a 20-pixel padding around the content. */
+  /* Additional header class */
+  .header {
 	background-color: #333333;
 	padding: 10px;
 	text-align: left;
 	color: #ffffff;
-	text-indent: 20px; 
+	text-indent: 20px;
   }
   
   /* Top navigation styles */
-  .topnav a {
-	float: left;  /*property is used to align the <a> tags horizontally to the left side of their container, in this case, the navigation bar. This means that the links will be positioned next to each other from left to right.*/
+  .navbar a {
+	float: left;
 	display: block;
 	color: #f2f2f2;
 	text-align: left;
 	padding: 14px 16px;
 	text-decoration: none;
   }
-
+  
+  /* Content styles */
   .content {
-	margin-top: 40px; 
+	margin-top: 40px;
   }
   
   /* Navbar styles */
-  .navbar {   /* the CSS code provided sets up a navigation bar by removing default list styling, removing margins and paddings, hiding any overflow, center-aligning the contents, and adjusting the top position by a negative margin.*/
+  .navbar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -58,19 +59,13 @@ body {    /*element has no margin or padding, uses the Arial font , and has a li
 	font-size: 30px;
   }
   
-  /* Centered text class */ /*make texe center*/
+  /* Centered text class */
   .centered-text {
 	text-align: center;
   }
   
-  /* Navbar link hover styles */
-  nav ul li a:hover {
-	color: #f70202;
-	background-color: #ffffff;
-  }
-  
   /* Image gallery styles */
-  .image-gallery {/*Decide on a picture style*/
+  .image-gallery {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -93,7 +88,7 @@ body {    /*element has no margin or padding, uses the Arial font , and has a li
   }
   
   /* Footer styles */
-  footer { /*Decide on the footer style*/
+  footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
